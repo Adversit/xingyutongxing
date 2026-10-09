@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f1f7f2"><meta name="description" content="像素主角沿六张精细道路地图探索星屿，结识24种原创精灵，搭配48种招式，完成六章故事与两种结局。">
+  <title>星屿同行 · 精灵探索物语</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%232e6f5d'/%3E%3Cpath d='m32 9 6 16 17 7-17 7-6 16-6-16-17-7 17-7Z' fill='%23f5d889'/%3E%3C/svg%3E">
+  <link rel="preload" href="./assets/creature-atlas.webp" as="image"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="app"><div class="boot"><span class="brand-mark">✧</span><h1>星屿同行</h1><p>正在准备你的群岛旅途…</p></div></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+  <script type="module" src="./app.mjs"></script>
+  <noscript>请启用 JavaScript 后开始星屿旅途。</noscript>
+</body></html>
